@@ -23,6 +23,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
 end
 
 group :development do
@@ -38,5 +41,3 @@ group :test do
   gem 'guard', '2.13.0'
   gem 'guard-minitest', '2.4.4'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
